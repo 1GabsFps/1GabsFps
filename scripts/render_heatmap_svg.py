@@ -13,11 +13,12 @@ def render_svg():
 
     svg_header = '''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="150" viewBox="0 0 860 150" fill="none">
   <style>
-    .bg { fill: #0d1117; rx: 8px; }
-    .day { rx: 2px; ry: 2px; opacity: 0; animation: fadeIn 0.5s forwards; }
+    <![CDATA[
+    .day { opacity: 0; animation: fadeIn 0.5s forwards; }
     @keyframes fadeIn { to { opacity: 1; } }
+    ]]>
   </style>
-  <rect width="860" height="150" class="bg" />
+  <rect width="860" height="150" rx="8" ry="8" fill="#0d1117" />
   <g transform="translate(20, 20)">
 '''
     
@@ -29,7 +30,7 @@ def render_svg():
         x = col * 15
         y = row * 15
         delay = (col + row) * 0.02
-        rects += f'    <rect x="{x}" y="{y}" width="11" height="11" fill="{color}" class="day" style="animation-delay: {delay:.2f}s;" />\n'
+        rects += f'    <rect x="{x}" y="{y}" width="11" height="11" rx="2" ry="2" fill="{color}" class="day" style="animation-delay: {delay:.2f}s;" />\n'
         row += 1
         if row >= 7:
             row = 0
