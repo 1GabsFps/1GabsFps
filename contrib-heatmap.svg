@@ -404,5 +404,6 @@
     <rect x="780" y="0" width="11" height="11" rx="2" ry="2" fill="#1b1335" class="day" style="animation-delay: 0.78s;" />
     <rect x="780" y="15" width="11" height="11" rx="2" ry="2" fill="#06b6d4" class="day" style="animation-delay: 0.79s;" />
     <rect x="780" y="30" width="11" height="11" rx="2" ry="2" fill="#6b21a8" class="day" style="animation-delay: 0.81s;" />
+    <rect x="780" y="45" width="11" height="11" rx="2" ry="2" fill="#1b1335" class="day" style="animation-delay: 0.82s;" />
   </g>
 </svg>
