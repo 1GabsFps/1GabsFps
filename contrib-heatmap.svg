@@ -406,6 +406,7 @@
     <rect x="780" y="30" width="11" height="11" rx="2" ry="2" fill="#6b21a8" class="day" style="animation-delay: 0.81s;" />
     <rect x="780" y="45" width="11" height="11" rx="2" ry="2" fill="#381a60" class="day" style="animation-delay: 0.82s;" />
     <rect x="780" y="60" width="11" height="11" rx="2" ry="2" fill="#381a60" class="day" style="animation-delay: 0.84s;" />
-    <rect x="780" y="75" width="11" height="11" rx="2" ry="2" fill="#1b1335" class="day" style="animation-delay: 0.85s;" />
+    <rect x="780" y="75" width="11" height="11" rx="2" ry="2" fill="#381a60" class="day" style="animation-delay: 0.85s;" />
+    <rect x="780" y="90" width="11" height="11" rx="2" ry="2" fill="#1b1335" class="day" style="animation-delay: 0.87s;" />
   </g>
 </svg>
